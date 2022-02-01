@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #f5f5f5;
+  background-color: #FCC9BB;
   color: #4e4e4e;
 }
 
@@ -731,6 +731,10 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+.about-col {
+  background-color: #FEF3EF;
+}
+
 .about-mf .about-img img {
   margin-left: 10px;
 }
@@ -744,18 +748,6 @@ a:hover {
 
 .skill-mf span {
   color: #4e4e4e;
-}
-
-.skill-mf .progress {
-  background-color: #cde1f8;
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #0078ff;
 }
 
 /*--------------------------------------------------------------
