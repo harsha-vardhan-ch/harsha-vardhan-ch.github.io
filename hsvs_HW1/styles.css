@@ -13,7 +13,7 @@ body {
   top: 0;
 }
 
-/* Start of Navigation bar and banner image styling */
+/* Navigation bar */
 
 ul {
     padding: 0;
@@ -74,7 +74,8 @@ nav{
     justify-content: center;
     font-family: sans-serif;
     text-shadow: 1px 1px white;
-    font-family: 'Montserrat'; color: orange;
+    font-family: 'Montserrat';
+     color: orange;
     font-weight: bold;
     font-size: 35px;
   }
@@ -106,7 +107,7 @@ nav{
     text-align: center;
     ;
   }
-/*End of Navigation bar and banner image styling */
+/* Navigation bar */
 
 /*Cards styling */
 
@@ -180,7 +181,8 @@ nav{
  .section3-inner-container p{
   margin-left: 210px;
   font-size: 1rem;
-  font-family: 'Comfortaa'; color: white;
+  font-family: 'Comfortaa';
+  color: white;
   margin-right: 200px;
   line-height: 20px;
   text-align: justify;
@@ -219,7 +221,8 @@ nav{
 
 .section4-inner-container p{
   font-size:1rem;
-  font-family:'Comfortaa'; color:white;
+  font-family:'Comfortaa';
+  color:white;
   text-align:justify;
   
 }
