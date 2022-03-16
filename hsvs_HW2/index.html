@@ -1,0 +1,109 @@
+<html>
+<head>
+
+<style>
+
+h1,h2{
+    color: #800000;
+}
+
+.field{
+    display: flex;
+    width:300px;
+    align-items: center;
+    margin-left:30%;
+    height:40px;
+}
+.central{
+    margin-left: 25%;
+    margin-top: 5%;
+    display: vertical;
+    align-items: center;
+    padding: 4%;
+    background-color: lightblue;
+    width:600px;
+    text-align: center;
+
+}
+label{
+    color: solid black;
+    font-size: 20px;
+}
+</style>
+
+</head>
+
+<body>
+    <div class="central">
+    <h1>Blood Pressure Predictor</h1>
+
+    <h2>Fill out the form to get your blood pressure estimate!</h2>
+
+    <form action="." method="POST">
+        
+        <div class="field">
+
+        <label for="age" style="padding-left:20px;">Age &nbsp;</label>
+        <p style="color: red;">* &nbsp; </p> 
+        <input
+        type="number"
+        id="age"
+        name="age_name"
+        placeholder="Enter age in years"
+        size=80
+        title="Please enter a number"
+        required>
+        
+        </div>
+        
+        <br>
+
+        <div class="field">
+
+        <label for="weight">Weight &nbsp;</label>
+        <p style="color: red;">* &nbsp;</p> 
+        <input
+        type="number"
+        id="weight"
+        name="weight_name"
+        placeholder="Enter weight in kg"
+        title="Please enter a number"
+        size=80
+        required>
+
+        </div>
+        <br>
+
+        <input type="submit" value="Calculate" onClick="validate()" style="color:white; background-color: blue; margin-top: 30px;">
+
+    </form>
+
+    <p>{{ results }}</p>
+
+    </div>
+
+</body>
+<script type="text/javascript">
+
+function validate() {
+  const input = document.getElementById("age");
+  const validityState = input.validity;
+
+  if (validityState.valueMissing) {
+    input.setCustomValidity('Please enter a number');
+  } else {
+    input.setCustomValidity('');
+  }
+   
+  const input2 = document.getElementById("weight");
+  const validityState2 = input2.validity;
+
+  if (validityState2.valueMissing) {
+    input2.setCustomValidity('Please enter a number');
+  } else {
+    input2.setCustomValidity('');
+  }
+}
+ 
+</script>
+</html>
