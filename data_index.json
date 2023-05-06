@@ -1,0 +1,39 @@
+{
+    "cards": [
+      {
+        "category": "Web App",
+        "title": "Housease",
+        "description": "Web application that simplifies the process of finding student housing ensuring a secure user experience.",
+        "image": "assets/img/tree.png",
+        "link": "https://github.com/harsha-vardhan-ch/housing"
+      },
+      {
+        "category": "Game",
+        "title": "Word Puzzle",
+        "description": "Puzzle game using Unity This was implemented as a part of CSCI course during MS.",
+        "image": "assets/img/tree.png",
+        "link": "https://github.com/harsha-vardhan-ch/word-puzzle"
+      },
+      {
+        "category": "Web App",
+        "title": "Community Media",
+        "description": "Interactive social media platform to share events within a community.",
+        "image": "assets/img/tree.png",
+        "link": "https://github.com/harsha-vardhan-ch/MemoryMedia"
+      },
+      {
+        "category": "Web3 App",
+        "title": "WavePortal",
+        "description": "A Webapplication using Solidity Contract",
+        "image": "assets/img/tree.png",
+        "link": "https://github.com/harsha-vardhan-ch/web3-folio"
+      },
+      {
+        "category": "Web App",
+        "title": "Music Player",
+        "description": "Web music player application using Spotify API.",
+        "image": "assets/img/tree.png",
+        "link": "https://github.com/harsha-vardhan-ch/music-player"
+      }
+    ]
+}
